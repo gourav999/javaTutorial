@@ -1,0 +1,14 @@
+package StaticVariable;
+
+public class JavaStaticBlock {
+	static {
+		System.out.println("This block is invocked");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Hello Main");
+		// TODO Auto-generated method stub
+
+	}
+
+}

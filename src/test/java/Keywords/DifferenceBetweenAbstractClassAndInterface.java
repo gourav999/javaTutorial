@@ -23,6 +23,13 @@
 //Members of a Java interface are public by default.
 
 ////9)Example:
-public abstract class Shape{
+//public abstract class Shape{
 //public abstract void draw();
-}
+//}
+
+//Example:
+//public interface Drawable{
+//void draw();
+//}
+
+//Simply, abstract class achieves partial abstraction (0 to 100%) whereas interface achieves fully abstraction (100%).

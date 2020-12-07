@@ -29,7 +29,6 @@ public class DefaultConstructor {
 	public static void main(String[] args) {
 
 		// default constuctor will be caleed
-
 		DefaultConstructor dc = new DefaultConstructor();
 
 		// TODO Auto-generated method stub

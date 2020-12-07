@@ -9,6 +9,7 @@ public class TryCatchBlock {
 		}
 		// handling the array exception
 		catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("This is catch block");
 			System.out.println(e);
 		}
 		System.out.println("rest of the code");

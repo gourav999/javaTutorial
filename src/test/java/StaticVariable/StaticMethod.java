@@ -1,3 +1,8 @@
+/*If you apply static keyword with any method, it is known as static method.
+
+A static method belongs to the class rather than the object of a class.
+A static method can be invoked without the need for creating an instance of a class.*/
+//A static method can access static data member and can change the value of it.
 package StaticVariable;
 
 public class StaticMethod {
@@ -15,9 +20,12 @@ public class StaticMethod {
 	}
 
 	public static void main(String[] args) {
+		//Here we are calling static method
 		changeCollege();
 
+		//Object creating
 		StaticMethod SM = new StaticMethod();
+		//Calling display method
 		SM.display(1234, "Gourav");
 		SM.display(1435, "Sourabh");
 		SM.display(3534, "Anubha");

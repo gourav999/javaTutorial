@@ -1,4 +1,5 @@
-//In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
+//In Java, a constructor is a block of codes similar to the method. 
+//It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
 //
 //It is a special type of method which is used to initialize the object.
 //
@@ -30,9 +31,6 @@ public class DefaultConstructor {
 
 		// default constuctor will be caleed
 		DefaultConstructor dc = new DefaultConstructor();
-
-		// TODO Auto-generated method stub
-
 	}
 
 }

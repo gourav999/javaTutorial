@@ -1,3 +1,6 @@
+//Static variable will get the memory only once, if any object changes the value of the static variable, it will retain its value.
+
+
 package StaticVariable;
 
 public class ProgramOfCounterWithStaticVariable {

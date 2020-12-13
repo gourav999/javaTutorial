@@ -1,3 +1,6 @@
+//static keyword. static keyword is used for mainly memory alocation. 
+//static keywrod can be varaible, method, block, nested class.
+
 package StaticVariable;
 
 public class calculation {

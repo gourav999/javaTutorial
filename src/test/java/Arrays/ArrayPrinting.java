@@ -1,8 +1,9 @@
 //Arrays in Java are also objects. They need to be declared and then created. In order to declare a variable that will hold an array of integers, we use the following syntax:
 package Arrays;
 
-public class a {
+public class ArrayPrinting {
 
+	
 	public static void arrayCreation() {
 		int[] arr;
 		arr = new int[10];
@@ -30,7 +31,7 @@ public class a {
 			System.out.println("Printing array as paramenter-->  " + "This is the " + i + " value " + arr[i]);
 		}
 	}
-	
+
 	public static void arrayPassingAnonymus(int arr[]) {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println("Printing Anonymus array -->  " + "This is the " + i + " value " + arr[i]);
@@ -50,8 +51,7 @@ public class a {
 		int arrayA1[] = { 100, 110, 120 };
 		b1.arrayAsParameter(arrayA1);
 
-
-		arrayPassingAnonymus(new int[]{10,22,44,66,77});//passing anonymous array to method
+		arrayPassingAnonymus(new int[] { 10, 22, 44, 66, 77 });// passing anonymous array to method
 	}
 
 }

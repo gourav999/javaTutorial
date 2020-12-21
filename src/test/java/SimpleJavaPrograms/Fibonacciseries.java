@@ -10,7 +10,7 @@ public class Fibonacciseries {
 		System.out.println(a);
 		System.out.println(b);
 		for (int i = 0; i < 10; i++) {
-			c = a + b;// 1 2
+			c = a + b;// 1 2   
 			a = b;// 1
 			b = c;// 1 2
 

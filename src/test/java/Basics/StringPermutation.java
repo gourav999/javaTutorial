@@ -1,40 +1,9 @@
-package Basics;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Helloworld {
-	
-
-	public static void main(String[] args) {
-		System.out.println("Haaaaaaaew");
-		// TODO Auto-generated method stub
-
-		//write code for adding two numbers	
-//write java code for adding two numbers
-		int a = 10;
-		int b = 20;
-		int c = a + b;
-		System.out.println("Sum of two numbers is: " + c);
-		
-		
-		//write java code for subtracting two numbers
-		int d = a - b;
-		System.out.println("Subtraction of two numbers is: " + d);
-		
-		
-		//write java code for multiplying two numbers
-		int e = a * b;
-		System.out.println("Multiplication of two numbers is: " + e);
-		
-		
-		//write java code for dividing two numbers
-		int f = a / b;
-		System.out.println("Division of two numbers is: " + f);
-//======================================================================
-		String s="abc";
-		//write code for permutation of String s  
-	
+public class StringPermutation {
+    public static void main(String[] args) {
+        String s = "abc";
         List<String> permutations = new ArrayList<>();
         permute(s, 0, s.length() - 1, permutations);
         System.out.println("Permutations of " + s + ": " + permutations);
@@ -60,11 +29,3 @@ public class Helloworld {
         return new String(charArray);
     }
 }
-
-		
-
-	
-
-
-
-
